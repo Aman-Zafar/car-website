@@ -1,0 +1,54 @@
+.card{
+    
+    box-shadow: 4px 4px 4px rgb(63, 63, 63);
+    margin-bottom: 2vh;
+    text-align: center;
+    display: flex;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 2vh;
+    background: linear-gradient(to top right , rgb(255, 211, 240) , rgb(255, 244, 183) , rgb(181, 181, 181));
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+*{
+    margin: 0%;
+   font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+.header{
+   overflow: hidden;
+}
+
+.header p{
+   float: right;
+   margin-top: 80px;
+   margin-right: 150px;
+   font-size: 50px;
+   color: aliceblue;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.animate__jello{
+   margin-bottom: 5%;
+   font-size: 400%;
+   text-shadow: 2px 0px 25px;
+   font-weight: bold;
+}
+.animate__jello:hover{
+   text-shadow: 25px;
+}
+.abouttxt{
+   color: rgb(227, 227, 227);
+   text-align: left;
+}
+.hang{
+   color: white;
+   text-align: center;
+   text-shadow: 2px 0px 25px;
+   font-weight: bold;
+   padding-bottom: 2vh;
+}
+.map{
+   text-align: center;
+}
